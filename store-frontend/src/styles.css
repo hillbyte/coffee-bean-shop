@@ -1,0 +1,22 @@
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap");
+body {
+  font-family: "Source Code Pro', monospace";
+  /* background: #343a40; */
+
+  /* background: #444647; */
+  background: #402218;
+}
+/* .footer {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+} */
+.secondaryBg {
+  background-color: #865439 !important;
+}
