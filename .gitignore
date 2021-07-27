@@ -1,5 +1,5 @@
-store-frontend/node_modules
-store-frontend/.env
-store-backend/node_modules
-store-backend/.env
+/store-frontend/node_modules
+/store-frontend/.env
+/store-backend/node_modules
+/store-backend/.env
 
