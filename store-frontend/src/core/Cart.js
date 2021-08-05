@@ -39,7 +39,7 @@ export default function Cart() {
   };
 
   return (
-    <Base title="Cart Page" description="Ready to checkout">
+    <Base title="Cart" description="Ready to checkout">
       <div className="row ">
         <div className="col-sm-6">{loadAllProducts()}</div>
         <div className="col-sm-6">
