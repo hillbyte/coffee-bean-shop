@@ -66,8 +66,8 @@ const AdminDashBoard = () => {
       className="container bg-secondary p-4"
     >
       <div className="row">
-        <div className="col-4">{adminLeftSide()}</div>
-        <div className="col-8">{adminRightSide()}</div>
+        <div className="col-md-4 mb-2">{adminLeftSide()}</div>
+        <div className="col-md-8">{adminRightSide()}</div>
       </div>
     </Base>
   );

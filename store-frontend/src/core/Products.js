@@ -28,7 +28,7 @@ export default function Products() {
         <div className="row" id="products">
           {products.map((product, index) => {
             return (
-              <div key={index} className="col-4 mb-2">
+              <div key={index} className="col-md-4 mb-2">
                 <Card product={product} />
               </div>
             );
