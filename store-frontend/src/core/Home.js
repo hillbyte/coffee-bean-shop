@@ -32,7 +32,7 @@ export default function Home() {
           <div className="carousel-item active">
             <img
               src="https://images.unsplash.com/photo-1582252852999-5ca546037481?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
-              className="d-block w-100"
+              className="d-block w-100 img-carousel"
               style={{ height: "25rem" }}
               alt="..."
             />
@@ -54,7 +54,7 @@ export default function Home() {
         <div className="row" id="products">
           {products.map((product, index) => {
             return (
-              <div key={index} className="col-4 mb-2">
+              <div key={index} className="col-md-4 mb-2">
                 <Card product={product} />
               </div>
             );
