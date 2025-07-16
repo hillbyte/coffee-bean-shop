@@ -31,6 +31,10 @@ app.use(bodyParser.json());
 app.use(cookieParser());
 app.use(cors());
 
+app.get("/", (req, res) => {
+  res.send("Store Api");
+});
+
 //routes
 app.use("/api", authRoutes);
 app.use("/api", userRoutes);
@@ -43,3 +47,5 @@ app.use("/api", stripeRoutes);
 app.listen(process.env.PORT || 8000, () => {
   console.log("Server at 8000");
 });
+
+module.exports = app;
