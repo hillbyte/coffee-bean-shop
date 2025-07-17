@@ -10,7 +10,7 @@ NODE_OPTIONS = "--openssl-legacy-provider"
 # If you explicitly need Node.js 22, you can change "nodejs-18_x" to "nodejs-22_x".
 # However, be aware that very old `react-scripts` versions might have other issues with Node.js 22.
 [phases.setup]
-nixPkgs = ["nodejs-16_x"] # This tells Nixpacks to use Node.js 18.x from Nixpkgs.
+nixPkgs = ["nodejs-16"] # This tells Nixpacks to use Node.js 18.x from Nixpkgs.
 
 # Define the build command
 [phases.build]
