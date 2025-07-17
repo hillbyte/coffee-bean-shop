@@ -1,5 +1,6 @@
 /store-frontend/node_modules
 /store-frontend/.env
+/store-frontend/build
 /store-frontend/.kiro
 /store-backend/node_modules
 /store-backend/.env
