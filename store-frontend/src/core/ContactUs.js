@@ -10,14 +10,10 @@ export default function ContactUs() {
         <p>
           There is nothing we love more than hearing back from you. We would be
           happy to help. Call us at: +910101010101. <br /> You can also Email
-          at: hello@hillbaky.me
+          at: ahillbaky@gmail.com
         </p>
         <hr />
-        <pre>
-          Registered Office: <br /> Code Bean,
-          <br /> P-216 New Newtown , 3st Floor, <br />
-          Kolkata- 7000156 <br /> West Bengal, India.
-        </pre>
+     
       </div>
       <div className="">
         <form className="row g-3">

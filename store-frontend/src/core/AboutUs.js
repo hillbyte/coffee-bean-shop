@@ -17,11 +17,6 @@ export default function AboutUs() {
               our community experience joy in life's simple pleasures one cup at
               a time. Slow down, relax and savour the moment.
             </p>
-
-            <p className="text-center text-info">Made with ❤️ in India</p>
-            <p className="text-center text-info">
-              Say hello at hello@hillbaky.me
-            </p>
           </div>
         </div>
       </div>

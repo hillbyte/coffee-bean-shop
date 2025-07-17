@@ -98,7 +98,7 @@ const Base = ({
         {/* Bottom Bar */}
         <div className="border-t border-coffee-800 pt-8 text-center">
           <p className="text-cream-400 text-sm">
-            Made with ❤️ in India | © {new Date().getFullYear()} Code Bean. All rights reserved.
+            © {new Date().getFullYear()} Code Bean. All rights reserved.
           </p>
         </div>
       </div>
